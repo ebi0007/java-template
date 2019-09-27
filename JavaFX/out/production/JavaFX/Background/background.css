@@ -1,0 +1,10 @@
+.rootasli {
+    -fx-background-image: url('/Images/12.jpg');
+    -fx-background-size:100% 100%;
+}
+#BKimage {
+    -fx-background-image: url('/Images/11.jpg');
+    -fx-background-size:100% 100%;
+}
+
+

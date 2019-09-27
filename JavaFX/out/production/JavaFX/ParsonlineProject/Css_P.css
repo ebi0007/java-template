@@ -1,0 +1,59 @@
+*{
+    -fx-primary :#000120 ;
+    -fx-secondary: #FFFF8D;
+    -fx-primarytext: white;
+}
+.root1 {
+    -fx-background-color: -fx-primary;
+}
+.glyph-icon{
+    -fx-fill: -fx-secondary;
+}
+.button {
+    -fx-text-fill: -fx-primarytext;
+}
+.login-button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color:-fx-primary;
+}
+.login-button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color:-fx-secondary ;
+    -fx-text-fill: -fx-primary;
+}
+.text-field1{
+    -fx-text-fill: white;
+    -fx-font-size:13pt;
+    /*-jfx-focus-color:#FFFF8D;*/
+}
+#inputpagebackground {
+    -fx-background-image: url('/ParsonlineProject/Images_P/input1.jpg');
+    -fx-background-size: 100% 100%;
+}
+#resultpagebackground {
+    -fx-background-image: url('/ParsonlineProject/Images_P/r3.jpg');
+    -fx-background-size: 100% 100%;
+    -fx-background-color: transparent;
+}
+
+
+.comboxStyle {
+    -fx-text-fill: white;
+
+}
+
+.login-input-button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color:#85B9F2 ;
+}
+.login-input-button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color:-fx-secondary ;
+    -fx-text-fill: -fx-primary;
+}

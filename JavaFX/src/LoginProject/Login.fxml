@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import de.jensd.fx.glyphs.GlyphIconName.*?>
+<?import com.jfoenix.controls.*?>
+<?import de.jensd.fx.glyphs.*?>
+<?import com.jfoenix.svg.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="317.0" prefWidth="380.0" styleClass="root" stylesheets="@Buttn.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginProject.ControlerForButton">
+   <children>
+      <Button layoutX="114.0" layoutY="232.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="76.0" styleClass="login-button" stylesheets="@Buttn.css" text="Login" />
+      <Button fx:id="btc" layoutX="215.0" layoutY="232.0" mnemonicParsing="false" onAction="#onclick" prefHeight="27.0" prefWidth="68.0" styleClass="login-button" stylesheets="@Buttn.css" text="Cansel" />
+      <GlyphsStack />
+      <JFXTextField labelFloat="true" layoutX="95.0" layoutY="78.0" prefHeight="38.0" prefWidth="204.0" promptText="Username" styleClass="text-field1" stylesheets="@Buttn.css" unFocusColor="WHITE" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0" />
+      <JFXTextField fx:id="PB" labelFloat="true" layoutX="102.0" layoutY="140.0" prefHeight="38.0" prefWidth="204.0" promptText="Password" styleClass="text-field1" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="95.0" />
+      <FontAwesomeIcon fill="#c8c9b9" iconName="LOCK" layoutX="161.0" layoutY="53.0" size="45" />
+      <FontAwesomeIcon iconName="USER" layoutX="61.0" layoutY="118.0" size="25" styleClass="glyph-icon" wrappingWidth="28.9285888671875" />
+      <FontAwesomeIcon iconName="KEY" layoutX="61.0" layoutY="180.0" size="25" styleClass="glyph-icon" wrappingWidth="28.9285888671875" />
+   </children>
+</AnchorPane>

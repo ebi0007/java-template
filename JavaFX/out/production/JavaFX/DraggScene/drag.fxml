@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="400.0" prefWidth="600.0" styleClass="mybackground" stylesheets="@TestCss.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DraggScene.TestController">
+   <children>
+      <JFXButton fx:id="exitbutton" layoutX="220.0" layoutY="51.0" prefHeight="77.0" prefWidth="138.0" style="-fx-border-color: black; -fx-background-color: transparent;" text="Exit" />
+      <Button fx:id="bt" layoutX="236.0" layoutY="224.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="170.0" style="-fx-background-color: transparent; -fx-border-color: Black; -fx-border-width: 0px 0px 2px 0px;" text="Button" />
+   </children>
+</AnchorPane>

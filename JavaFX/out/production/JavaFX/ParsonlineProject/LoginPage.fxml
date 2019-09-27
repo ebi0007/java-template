@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" styleClass="root1" stylesheets="@Css_P.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ParsonlineProject.Controller_P">
+   <children>
+      <JFXTextField fx:id="usernamet" focusColor="#ffff8d" labelFloat="true" layoutX="88.0" layoutY="119.0" prefHeight="38.0" prefWidth="223.0" promptText="Username" styleClass="text-field1" stylesheets="@Css_P.css" unFocusColor="WHITE">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="passwordt" focusColor="#ffff8d" labelFloat="true" layoutX="88.0" layoutY="201.0" prefHeight="38.0" prefWidth="223.0" promptText="Password" styleClass="text-field1" />
+      <JFXButton fx:id="loginbutton" layoutX="84.0" layoutY="281.0" onAction="#loginAction" prefHeight="32.0" prefWidth="104.0" styleClass="login-button" text="Login" />
+      <JFXButton fx:id="canselbutton" layoutX="210.0" layoutY="281.0" onAction="#canselAction" prefHeight="32.0" prefWidth="104.0" styleClass="login-button" text="Cansel" />
+      <FontAwesomeIcon iconName="KEY" layoutX="51.0" layoutY="234.0" size="30" styleClass="glyph-icon" />
+      <FontAwesomeIcon iconName="LOCK" layoutX="184.0" layoutY="86.0" size="50" styleClass="glyph-icon" />
+      <FontAwesomeIcon iconName="USER" layoutX="54.0" layoutY="162.0" size="30" styleClass="glyph-icon" />
+   </children>
+</AnchorPane>

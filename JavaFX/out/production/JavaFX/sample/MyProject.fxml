@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../software%20image/internet.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="48.0" prefHeight="33.0" prefWidth="134.0" text="This is first project." textFill="#1a128a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="137.0" prefHeight="33.0" prefWidth="134.0" text="Lastname:" textFill="black">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="104.0" prefHeight="33.0" prefWidth="134.0" text="Firstname:" textFill="black">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf1" layoutX="244.0" layoutY="108.0" onAction="#txtF1" />
+      <TextField fx:id="tf2" layoutX="244.0" layoutY="141.0" onAction="#txtF1" />
+      <Button fx:id="bot" layoutX="293.0" layoutY="232.0" mnemonicParsing="false" onAction="#printoutt" text="OK" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

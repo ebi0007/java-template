@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@bk.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TextfieldValidation.ValidationController">
+   <children>
+      <JFXTextField fx:id="StudentID" focusColor="#ff540f" labelFloat="true" layoutX="198.0" layoutY="99.0" prefHeight="37.0" prefWidth="205.0" promptText="Student ID" unFocusColor="#1834ff" />
+      <JFXButton layoutX="240.0" layoutY="298.0" prefHeight="49.0" prefWidth="138.0" style="-fx-background-color: #2A44FF;" text="OK" textFill="WHITE" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="Passwordtext" focusColor="#ff540f" labelFloat="true" layoutX="198.0" layoutY="200.0" prefHeight="37.0" prefWidth="205.0" promptText="Password" unFocusColor="#1834ff" />
+   </children>
+</AnchorPane>
